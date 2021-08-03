@@ -70,7 +70,7 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Text>Hello Guys</Text>
+          <Text>Hello Guys ini testing </Text>
         </View>
       </ScrollView>
     </SafeAreaView>
