@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Image, Text, TextInput, View} from 'react-native';
 
 const App = () => {
@@ -11,6 +11,8 @@ const App = () => {
       <Text>Nama Tiga</Text>
       <Gamber />
       <TextInput style={{borderWidth: 1}} />
+      <BoxGreen />
+      <Photo />
     </View>
   );
 };
@@ -27,5 +29,27 @@ const Gamber = () => {
     />
   );
 };
+
+class BoxGreen extends Component {
+  render() {
+    return <Text>Ini Component dari Class</Text>;
+  }
+}
+
+class Photo extends Component {
+  render() {
+    return (
+      <View>
+        <Image
+          source={{uri: 'https://placeimg.com/100/100/arch'}}
+          style={{width: 120, height: 120, borderRadius: 70}}
+        />
+        <Text style={{color: 'red', fontSize: 22}}>
+          Ini Foto Class Component
+        </Text>
+      </View>
+    );
+  }
+}
 
 export default App;
