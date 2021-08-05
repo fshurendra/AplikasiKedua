@@ -1,8 +1,8 @@
 import React from 'react';
 import {Image, StyleSheet, View, Text} from 'react-native';
-import Cart from './shopping-cart.png';
+import Cart from '../../assets/icons/shopping-cart.png';
 
-const PositionRn = () => {
+const Position = () => {
   return (
     <View style={styles.wrapper}>
       <Text>Materi Position</Text>
@@ -15,7 +15,7 @@ const PositionRn = () => {
   );
 };
 
-export default PositionRn;
+export default Position;
 
 const styles = StyleSheet.create({
   wrapper: {padding: 20, alignItems: 'center'},

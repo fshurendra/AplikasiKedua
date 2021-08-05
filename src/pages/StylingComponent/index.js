@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
-import Mackbook from './jexo-tj7Bj_743JA-unsplash.jpg';
+import Mackbook from '../../assets/images/jexo-tj7Bj_743JA-unsplash.jpg';
 
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
   return (
     <View>
       <Text style={styles.judul}>Styling Component</Text>
@@ -67,4 +67,4 @@ const styles = StyleSheet.create({
   judul: {fontSize: 20, color: '#03e', marginTop: 30, marginLeft: 50},
 });
 
-export default StylingReactNativeComponent;
+export default StylingComponent;
