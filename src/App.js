@@ -6,12 +6,13 @@ import Position from './pages/Position';
 import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
 import Communication from './pages/Communication';
+import ReactNativeSvg from './pages/ReactNativeSvg';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
-        <Communication />
+        <ReactNativeSvg />
       </ScrollView>
     </View>
   );
